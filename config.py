@@ -6,7 +6,7 @@ que = {}
 admins = {}
 
 API_ID = int(getenv("API_ID", "9222289"))
-API_HASH = getenv("API_HASH", "2777b770a525c2072cf270bac1e99aca)
+API_HASH = getenv("API_HASH", "2777b770a525c2072cf270bac1e99aca")
 BOT_TOKEN = getenv("BOT_TOKEN", None)
 BOT_NAME = getenv("BOT_NAME","Ɗᴇᴇᴘᴀɴꜱʜᴜ ᴍᴜsɪᴄ ʙᴏᴛ")
 BOT_USERNAME = getenv("BOT_USERNAME", "Deepanshu_Music_Robot")
