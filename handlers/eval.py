@@ -30,7 +30,7 @@ async def edit_or_reply(msg: Message, **kwargs):
     await func(**{k: v for k, v in kwargs.items() if k in spec})
 
 
-@Client.on_message(command(["eval", d"eval@{BOT_USERNAME}"]) & ~filters.edited)
+@Client.on_message(command(["eval", f"eval@{BOT_USERNAME}"]) & ~filters.edited)
 @sudo_users_only
 async def executor(client, message):
     if len(message.command) < 2:
